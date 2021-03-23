@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#99000000">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_background"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_margin="20dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_qmailer_inverse"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/storeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="@string/BUY_EMAILS"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/store_item"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/storeDescOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="@color/black_80"
+                android:layout_margin="10dp"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/storeItemOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/store_item_badge_selector"
+                    android:layout_gravity="end"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:fontFamily="@font/ubuntu"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/store_email_icon"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/store_item"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/storeDescTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="@color/black_80"
+                android:layout_margin="10dp"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/storeItemTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/store_item_badge_selector"
+                    android:layout_gravity="end"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:fontFamily="@font/ubuntu"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/store_email_icon"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/store_item"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/storeDescThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="@color/black_80"
+                android:layout_margin="10dp"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/storeItemThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/store_item_badge_selector"
+                    android:layout_gravity="end"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:fontFamily="@font/ubuntu"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/store_email_icon"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/store_item"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/storeDescFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textColor="@color/black_80"
+                android:layout_margin="10dp"
+                android:textStyle="bold"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/storeItemFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/store_item_badge_selector"
+                    android:layout_gravity="end"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:fontFamily="@font/ubuntu"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/store_email_icon"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/storeDraftButton"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/store_button_selector"
+                android:textAllCaps="false"
+                android:textColor="@color/black_80"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

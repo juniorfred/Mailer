@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingTop="10dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:isScrollContainer="true">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/MenuItems"
+                android:id="@+id/toMyProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple"
+                android:text="@string/ME"
+                android:drawableStart="@drawable/user"
+                android:gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/MenuItems"
+                android:id="@+id/toCompose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple"
+                android:text="@string/COMPOSE"
+                android:drawableStart="@drawable/compose"
+                android:gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/MenuItems"
+                android:id="@+id/toSentBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple"
+                android:text="@string/SENT_BOX"
+                android:drawableStart="@drawable/sent"
+                android:gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/MenuItems"
+                android:id="@+id/toDraft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple"
+                android:text="@string/DRAFT"
+                android:drawableStart="@drawable/draft"
+                android:gravity="center_vertical"
+                android:drawablePadding="5dp"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_margin="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_qmailer_inverse"
+            android:layout_margin="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/app_name"
+            android:textColor="@color/black_80"
+            android:textSize="14sp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

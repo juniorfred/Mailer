@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/action_pannel"
+                android:layout_marginTop="5dp"
+                android:padding="10dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/AVAILABLE_EMAIL"
+                    android:drawableStart="@drawable/mail"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center_horizontal">
+
+                <AutoCompleteTextView
+                    android:id="@+id/region"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/form_label_background_rounded"
+                    android:hint="@string/REGION"
+                    android:padding="12dp"
+                    android:singleLine="true"
+                    android:textSize="14sp"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/audienceCount"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/form_label_background_rounded"
+                    android:hint="@string/EMAILS_TO_SEND"
+                    android:padding="12dp"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="number"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/action_pannel"
+                android:layout_marginTop="40dp"
+                android:padding="10dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/USE_CUSTOM"
+                    android:drawableStart="@drawable/email_ads"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/ONLY_AVAILABLE_TO_PREMIUM_USERS"
+                android:textColor="@color/white"
+                android:background="@drawable/notice_background"
+                android:padding="10dp"/>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/gmailUsername"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/form_label_background_rounded"
+                    android:hint="@string/GMAIL_EMAIL"
+                    android:padding="12dp"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/gmailPassword"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/form_label_background_rounded"
+                    android:hint="@string/GMAIL_PASSWORD"
+                    android:padding="12dp"
+                    android:singleLine="true"
+                    android:textSize="14sp"
+                    android:inputType="textPassword"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/action_pannel"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/HOW_WE_USE_YOUR_GMAIL"
+                    android:drawableStart="@drawable/secured_email"
+                    android:drawablePadding="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/WHAT_WE_DO_WITH_YOUR_LOGIN"
+                android:textColor="@color/white"
+                android:background="@drawable/notice_background"
+                android:padding="10dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sendEmailAds"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/actionbtn_selector"
+                android:text="@string/SEND"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:paddingStart="30dp"
+                android:paddingEnd="30dp"
+                android:drawablePadding="5dp"
+                android:drawableEnd="@drawable/right_arrow"
+                android:textStyle="bold"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
